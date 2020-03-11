@@ -52,7 +52,7 @@ search200:
     status_code: Status Code
 ```
 
-!["Table showing cutom columns"](/docs/img/custom-columns.png)
+!["Table showing custom columns"](docs/img/custom-columns.png)
 
 The text following the colon will be the column header, and can be whatever will be meaningful to you.
 
@@ -71,6 +71,8 @@ search200:
     agency: Agency
     status_code: Response Code
 ```
+
+!["Showing custom filters"](docs/img/custom-filters.png)
 
 The following filters are available to be applied to any scan:
 
@@ -97,5 +99,7 @@ search200:
     agency: Agency
     status_code: Response Code
 ```
+
+!["Custom filter values"](docs/img/custom-filter-values.png)
 
 This will also limit the default query when the page load (or when "All" is selected from a filter) to values matching those in the specified filter options.
